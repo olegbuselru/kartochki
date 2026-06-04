@@ -1,0 +1,55 @@
+{
+  "decks": [
+    {
+      "id": "deck-001",
+      "name": "AI & MCP основы",
+      "description": "Базовые вопросы об AI-инструментах и Model Context Protocol",
+      "tags": ["ai", "mcp", "devrel"],
+      "cards": [
+        {
+          "id": "card-001",
+          "question": "Что такое MCP (Model Context Protocol)?",
+          "answer": "Открытый протокол от Anthropic, который позволяет AI-агентам безопасно подключаться к внешним инструментам, данным и сервисам через стандартизированный интерфейс.",
+          "difficulty": "easy",
+          "tags": ["ai", "mcp"]
+        },
+        {
+          "id": "card-002",
+          "question": "В чём разница между RAG и fine-tuning?",
+          "answer": "RAG (Retrieval-Augmented Generation) динамически извлекает релевантные данные при каждом запросе. Fine-tuning 'запекает' знания в веса модели при обучении. RAG — гибче и дешевле, fine-tuning — быстрее на инференсе.",
+          "difficulty": "medium",
+          "tags": ["ai", "rag", "llm"]
+        },
+        {
+          "id": "card-003",
+          "question": "Что такое DevRel?",
+          "answer": "Developer Relations — функция в компании, отвечающая за построение отношений с сообществом разработчиков: техническое евангелизм, поддержка, создание контента и обратная связь от разработчиков к продукту.",
+          "difficulty": "easy",
+          "tags": ["devrel", "community"]
+        }
+      ]
+    },
+    {
+      "id": "deck-002",
+      "name": "JavaScript основы",
+      "description": "Вопросы для подготовки к техническому интервью",
+      "tags": ["javascript", "interview", "frontend"],
+      "cards": [
+        {
+          "id": "card-004",
+          "question": "Что такое замыкание (closure) в JavaScript?",
+          "answer": "Замыкание — функция, которая 'помнит' переменные из своей внешней области видимости, даже после того как внешняя функция завершила выполнение.",
+          "difficulty": "medium",
+          "tags": ["javascript", "fundamentals"]
+        },
+        {
+          "id": "card-005",
+          "question": "В чём разница между == и === в JavaScript?",
+          "answer": "== выполняет приведение типов перед сравнением (1 == '1' → true). === сравнивает без приведения типов (1 === '1' → false). Всегда предпочтительно использовать ===.",
+          "difficulty": "easy",
+          "tags": ["javascript", "types"]
+        }
+      ]
+    }
+  ]
+}
